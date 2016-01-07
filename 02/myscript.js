@@ -1,13 +1,14 @@
-var changeColor = function(color) {
+var changeFontSize = function(fontSize) {
   chrome.tabs.executeScript(null, {
-    "code": "document.body.style.backgroundColor = '" + color + "'"
+    "code": "document.body.style.fontSize = '" + fontSize + "pt'"
   });
 };
 
-document.getElementById('red').onclick = function() {
-  changeColor('red');
-};
+document.getElementById('big').addEventListener('click', function() {
+  changeFontSize('20');
+});
 
-document.getElementById('yellow').onclick = function() {
-  changeColor('yellow');
-};
+document.getElementById('small').addEventListener('click', function() {
+  changeFontSize('5');
+});
+

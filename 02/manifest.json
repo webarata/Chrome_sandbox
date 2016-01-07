@@ -1,9 +1,9 @@
 {
-  "name": "My Second Extension",
+  "name": "文字の拡大縮小",
   "version": "0.1.1",
   "manifest_version": 2,
 
-  "description": "今いるページの背景色を変えるよ",
+  "description": "文字の拡大縮小",
 
   "permissions": [
     "tabs", "http://*/*"
@@ -11,7 +11,7 @@
 
   "browser_action": {
     "default_icon": "icon19.png",
-    "default_title": "My Second Extension",
+    "default_title": "文字の拡大縮小",
     "default_popup": "popup.html"
   }
 }
