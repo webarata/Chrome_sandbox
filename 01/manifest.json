@@ -1,9 +1,9 @@
 {
-  "name": "My First Extension",
+  "name": "browser_action_test",
   "version": "0.1.1",
   "manifest_version": 2,
 
-  "description": "はじめての拡張",
+  "description": "バッジの表示",
 
   "background": {
     "scripts": ["background.js"]
@@ -11,7 +11,7 @@
 
   "browser_action": {
     "default_icon": "icon19.png",
-    "default_title": "My First Extension",
+    "default_title": "browser_action test",
     "default_popup": "popup.html"
   }
 }
