@@ -1,0 +1,19 @@
+{
+  "name": "My 7th Extension",
+  "version": "0.1.1",
+  "manifest_version": 2,
+
+  "description": "今いるページの背景色を変えるよ",
+
+  "permissions": [
+    "tabs", "http://*/*", "contextMenus"
+  ],
+
+  "icons": {
+    "16": "icon16.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
