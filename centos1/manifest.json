@@ -5,6 +5,12 @@
 
   "description": "CentOS test1",
 
+  "icons": {
+    "16": "image/icon16.png",
+    "64": "image/icon64.png",
+    "128": "image/icon128.png"
+  },
+
   "permissions": [
     "https://lists.centos.org/pipermail/centos-announce/*"
   ],
@@ -15,8 +21,8 @@
 
   "browser_action": {
     "default_icon": {
-      "19": "icon19.png",
-      "38": "icon38.png"
+      "19": "image/icon19.png",
+      "38": "image/icon38.png"
     },
     "default_title": "CentOS 1"
   }
