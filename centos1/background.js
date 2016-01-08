@@ -19,15 +19,22 @@ var ajax = function(url, doneCallBack, failCallBack) {
 
 var MONTH_NAME = [
   "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "Novenber", "December"
+  "July", "August", "September", "October", "November", "December"
 ];
 
 var date = new Date();
 var dateUrl = date.getFullYear() + '-' + MONTH_NAME[date.getMonth()] + '/date.html';
-console.log(dateUrl);
+
+dateUrl = '2015-December/date.html';
 
 ajax('https://lists.centos.org/pipermail/centos-announce/' + dateUrl, function(responseText) {
-  chrome.browserAction.setBadgeText({ text: '11' });
+  var count = responseText.length;
+  var criticalCount =  (count - responseText.replace(/Critical/g, '').length) / 'Critical'.length;
+  var importantCount =  (count - responseText.replace(/Important/g, '').length) / 'Important'.length;
+  var moderateCount =  (count - responseText.replace(/Moderate/g, '').length) / 'Moderate'.length;
+
+
+  chrome.browserAction.setBadgeText({ text:  (criticalCount + importantCount).toString() });
   chrome.browserAction.setBadgeBackgroundColor({ color:[255, 0, 0, 0] });
 }, function(statusText) {
   chrome.browserAction.setBadgeText({ text: '-' });
