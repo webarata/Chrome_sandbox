@@ -18,9 +18,10 @@ var ajax = function(url, doneCallBack, failCallBack) {
 };
 
 ajax('https://lists.centos.org/pipermail/centos-announce/', function(responseText) {
-  chrome.browserAction.setBadgeText({ text: '1111' });
-  console.log(responseText);
+  chrome.browserAction.setBadgeText({ text: '11' });
+  chrome.browserAction.setBadgeBackgroundColor({ color:[255, 0, 0, 0] });
 }, function(statusText) {
-  chrome.browserAction.setBadgeText({ text: '?' });
+  chrome.browserAction.setBadgeText({ text: '-' });
+  chrome.browserAction.setBadgeBackgroundColor({ color:[0, 0, 255, 100] });
 });
 
