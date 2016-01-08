@@ -22,6 +22,7 @@ var MONTH_NAME = [
   "July", "August", "September", "October", "November", "December"
 ];
 
+// 当日から、検索するURLを決定する
 var date = new Date();
 var dateUrl = date.getFullYear() + '-' + MONTH_NAME[date.getMonth()] + '/date.html';
 
