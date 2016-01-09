@@ -1,2 +1,1 @@
-document.getElementById('newUrl').setAttribute('href', 'http://www.yahoo.co.jp');
-console.log(111);
+document.getElementById('newUrl').setAttribute('href', url);

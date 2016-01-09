@@ -17,18 +17,7 @@ var ajax = function(url, doneCallBack, failCallBack) {
   xhr.send();
 };
 
-var MONTH_NAME = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
-];
-
-// 当日から、検索するURLを決定する
-var date = new Date();
-var dateUrl = date.getFullYear() + '-' + MONTH_NAME[date.getMonth()] + '/date.html';
-
-dateUrl = '2015-December/date.html';
-
-ajax('https://lists.centos.org/pipermail/centos-announce/' + dateUrl, function(responseText) {
+ajax(url, function(responseText) {
   var count = responseText.length;
   var criticalCount =  (count - responseText.replace(/Critical/g, '').length) / 'Critical'.length;
   var importantCount =  (count - responseText.replace(/Important/g, '').length) / 'Important'.length;
