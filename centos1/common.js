@@ -4,6 +4,6 @@ var MONTH_NAME = [
 ];
 
 // 当日から、検索するURLを決定する
-var date = new Date();
-var dateUrl = date.getFullYear() + '-' + MONTH_NAME[date.getMonth()] + '/date.html';
+var today = new Date();
+var dateUrl = today.getFullYear() + '-' + MONTH_NAME[today.getMonth()] + '/date.html';
 var url = 'https://lists.centos.org/pipermail/centos-announce/' + dateUrl;
