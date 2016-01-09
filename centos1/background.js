@@ -23,6 +23,9 @@ ajax(url, function(responseText) {
   var importantCount =  (count - responseText.replace(/Important/g, '').length) / 'Important'.length;
   var moderateCount =  (count - responseText.replace(/Moderate/g, '').length) / 'Moderate'.length;
 
+  localStorage['criticalCount'] = criticalCount;
+  localStorage['importantCount'] = importantCount;
+  localStorage['moderateCount'] = moderateCount;
 
   chrome.browserAction.setBadgeText({ text:  (criticalCount + importantCount).toString() });
   chrome.browserAction.setBadgeBackgroundColor({ color:[255, 0, 0, 0] });

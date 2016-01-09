@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46dceb1d-5643-4499-bfa8-8685c5ac2ab5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centos1/background.js" afterPath="$PROJECT_DIR$/centos1/background.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centos1/popup.html" afterPath="$PROJECT_DIR$/centos1/popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centos1/popup.js" afterPath="$PROJECT_DIR$/centos1/popup.js" />
     </list>
     <ignored path="Chrome_sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/centos1/background.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -67,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/centos1/popup.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -110,8 +112,8 @@
         <option value="$PROJECT_DIR$/font_color/test.js" />
         <option value="$PROJECT_DIR$/02/manifest.json" />
         <option value="$PROJECT_DIR$/centos1/common.js" />
-        <option value="$PROJECT_DIR$/centos1/background.js" />
         <option value="$PROJECT_DIR$/centos1/manifest.json" />
+        <option value="$PROJECT_DIR$/centos1/background.js" />
         <option value="$PROJECT_DIR$/centos1/popup.js" />
         <option value="$PROJECT_DIR$/centos1/popup.html" />
       </list>
@@ -531,6 +533,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/centos1/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/centos1/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25">
@@ -539,10 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centos1/background.js">
+    <entry file="file://$PROJECT_DIR$/centos1/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -550,15 +560,7 @@
     <entry file="file://$PROJECT_DIR$/centos1/popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centos1/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
           <folding />
         </state>
       </provider>
